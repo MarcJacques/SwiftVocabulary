@@ -14,6 +14,7 @@
 		05443AD72543EA7A00AAF0B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05443AD52543EA7A00AAF0B8 /* LaunchScreen.storyboard */; };
 		05443AE02543EAB200AAF0B8 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05443ADF2543EAB200AAF0B8 /* WordsTableViewController.swift */; };
 		05443AE32543EADB00AAF0B8 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05443AE22543EADB00AAF0B8 /* DefinitionViewController.swift */; };
+		05443AED2543EDB600AAF0B8 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05443AEC2543EDB600AAF0B8 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		05443AD82543EA7A00AAF0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05443ADF2543EAB200AAF0B8 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		05443AE22543EADB00AAF0B8 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		05443AEC2543EDB600AAF0B8 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 		05443AC92543EA7800AAF0B8 /* Swift Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
-				05443AE62543EB0200AAF0B8 /* Views */,
+				05443AEF2543EDC200AAF0B8 /* Model */,
+				05443AE62543EB0200AAF0B8 /* View Controllers */,
 				05443AE82543EB2A00AAF0B8 /* Resources */,
 				05443AEA2543EB3600AAF0B8 /* StoryBoards */,
 				05443AD82543EA7A00AAF0B8 /* Info.plist */,
@@ -66,13 +69,13 @@
 			path = "Swift Vocabulary";
 			sourceTree = "<group>";
 		};
-		05443AE62543EB0200AAF0B8 /* Views */ = {
+		05443AE62543EB0200AAF0B8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				05443ADF2543EAB200AAF0B8 /* WordsTableViewController.swift */,
 				05443AE22543EADB00AAF0B8 /* DefinitionViewController.swift */,
 			);
-			path = Views;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		05443AE82543EB2A00AAF0B8 /* Resources */ = {
@@ -92,6 +95,14 @@
 				05443AD52543EA7A00AAF0B8 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		05443AEF2543EDC200AAF0B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05443AEC2543EDB600AAF0B8 /* VocabularyWord.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			files = (
 				05443ACB2543EA7800AAF0B8 /* AppDelegate.swift in Sources */,
 				05443ACD2543EA7800AAF0B8 /* SceneDelegate.swift in Sources */,
+				05443AED2543EDB600AAF0B8 /* VocabularyWord.swift in Sources */,
 				05443AE02543EAB200AAF0B8 /* WordsTableViewController.swift in Sources */,
 				05443AE32543EADB00AAF0B8 /* DefinitionViewController.swift in Sources */,
 			);

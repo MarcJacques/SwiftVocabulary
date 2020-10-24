@@ -8,7 +8,10 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
-
+   
+    @IBOutlet weak var vocabularyWordLabel: UILabel!
+    
+    @IBOutlet weak var definitionTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
