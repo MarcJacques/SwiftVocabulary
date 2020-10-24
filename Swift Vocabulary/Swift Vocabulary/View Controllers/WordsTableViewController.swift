@@ -59,7 +59,7 @@ class WordsTableViewController: UITableViewController {
                 return
             }
             let vocabWord = vocabularyWords[indexPath.row]
-            definitionVC.word = vocabWord
+            definitionVC.vocabWord = vocabWord
         }
         // Pass the selected object to the new view controller.
     }
